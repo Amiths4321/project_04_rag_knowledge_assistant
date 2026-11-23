@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ChromaDB and local databases
+data/vector_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+reports/logs/
+*.log
+
+# Temporary files
+.DS_Store
+Thumbs.db
+*.tmp
